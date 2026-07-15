@@ -2,5 +2,14 @@ p{
     color: aquamarine;
 }
 #heading{
-    color: rgb(212, 72, 7);
+    color: rgb(201, 0, 241);
+}
+body{
+    background-color: darkcyan;
+}
+#heading{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
 }
