@@ -1,30 +1,21 @@
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h1{
     color: maroon;
-}
-h1{
     font-size: 80px;
-}
-p{
-    font-size: 25px;
-}
-p {
-    color:darkcyan;
-}
-body {
-    background-color: bisque ;
-}
-h1 {
     font-size: 60px;
-}
-h1{    
     text-align: center;
     color: white;
     font-size: 48px;
     margin-top: 100px;
 }
+p{
+    font-size: 25px;
+    color:darkcyan;
+}
+body {
+    background-color: bisque ;
+}
+
 
 .welcome-text {
     width: 70%;
@@ -36,4 +27,47 @@ h1{
     background: rgba(0, 0, 0, 0.5);
     padding: 25px;
     border-radius: 15px;
+}
+.flex-container {
+    height: 300;
+    width:40 ;
+    background-color: chocolate;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: center;
+    align-self: center;
+    padding: 25 25 25 25;
+}
+a{
+    text-decoration: none;
+}
+.flex-item{
+    color: cornsilk;
+    background-color: darkred;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    align-self: start;
+
+}
+.cup{
+    display: flex;
+}
+.Menu {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 136, 0, 0.747);
+}
+caption {
+    font-size: 50px;
+    color: brown;
+}
+.Thanks {
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: chocolate;
 }
