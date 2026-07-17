@@ -30,7 +30,6 @@ body {
 }
 .flex-container {
     height: 300;
-    width:40 ;
     background-color: chocolate;
     font-size: 25px;
     display: flex;
